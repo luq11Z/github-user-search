@@ -1,0 +1,12 @@
+.main-nav {
+    overflow: hidden;
+    height: 60px;
+    background: #1890FF;
+
+    & h4 {
+        float: left;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 0px 40px;
+    }
+}
