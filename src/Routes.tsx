@@ -1,6 +1,7 @@
 import Navbar from './core/components/Navbar';
 import Home from './pages/Home';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
+import User from './pages/User';
 
 const Routes = () => (
     <BrowserRouter>
@@ -8,6 +9,9 @@ const Routes = () => (
         <Switch>
             <Route path="/" exact>
                 <Home />
+            </Route>
+            <Route path="/search" exact>
+                <User />
             </Route>
         </Switch>
     </BrowserRouter>
