@@ -61,8 +61,11 @@
 
 .user-image {
     grid-area: sidebar;
-    width: 284px;
-    //height: 280px;
+
+    & img {
+        width: 284px;
+        height: 280px;
+    }
 }
 
 .row {
